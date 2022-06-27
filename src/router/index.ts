@@ -1,23 +1,21 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
+import Layout from "@/views/Layout.vue"
+import Rinci from "@/views/Rinci.vue"
+import Upload from "@/views/Upload.vue"
+import UploadForm from "@/views/Upload_Form.vue"
+import RinciPegawai from "@/views/Rinci_Pegawai.vue"
+import InputSK from "@/views/Input_SK.vue"
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+  {path: '/rincipegawai', component: RinciPegawai},
+  {path: '/inputsk', component: InputSK},
+  {path: '/rinci', component: Rinci},
+  {path: '/upload', component: Upload},
+  {path: '/uploadform', component: UploadForm},
+  {path: '', component: Layout}
 ]
 
 const router = new VueRouter({
