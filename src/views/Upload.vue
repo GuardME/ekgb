@@ -43,11 +43,11 @@
                 <td>III/b</td>
                 <td>01-06-2022</td>
                 <td>17 th 2 bln</td>
-                <td><button class="btn btn-primary">Upload</button></td>
+                <td><button class="btn btn-primary" @click="$router.push('uploadform')">Upload</button></td>
                 </tr>
                
             </tbody>
-            </table>
+         </table>
         </div>
     </div>
 </template>

@@ -8,9 +8,9 @@
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="/" class="nav-link px-2 link-secondary">Dashboard</a></li>
-          <li><a href="uploadform" class="nav-link px-2 link-dark">Hitung KGB</a></li>
-                <li><a href="inputsk" class="nav-link px-2 link-dark">Input SK</a></li>
-          <li><a href="" class="nav-link px-2 link-dark">History</a></li>
+          <li><router-link to="upload" class="nav-link px-2 link-dark">Hitung KGB</router-link></li>
+                <li><router-link to="inputsk" class="nav-link px-2 link-dark">Input SK</router-link></li>
+          <li><router-link to="" class="nav-link px-2 link-dark">History</router-link></li>
           <li><a href="" class="nav-link px-2 link-dark">Master Data</a></li>
           <li><a href="" class="nav-link px-2 link-dark">Manajemen User</a></li>
         </ul>
