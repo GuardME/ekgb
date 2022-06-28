@@ -1,23 +1,20 @@
 <template>
-    <header class="p-3 mb-3 border-bottom">
+    <header class="p-3 mb-3 border-bottom bgheader">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <!-- <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-        </a> -->
-
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="/" class="nav-link px-2 link-secondary">Dashboard</a></li>
-          <li><router-link to="upload" class="nav-link px-2 link-dark">Upload KGB</router-link></li>
-                <li><router-link to="inputsk" class="nav-link px-2 link-dark">Input SK</router-link></li>
-          <li><router-link to="" class="nav-link px-2 link-dark">History</router-link></li>
-          <li><a href="" class="nav-link px-2 link-dark">Master Data</a></li>
-          <li><a href="" class="nav-link px-2 link-dark">Manajemen User</a></li>
+          <li><a href="/" class="nav-link px-2 text-white pd bold">E - KGB</a></li>
+          <li><router-link to="upload" class="nav-link px-2 text-white pd bold">Upload KGB</router-link></li>
+                <li><router-link to="inputsk" class="nav-link px-2 text-white pd">Input SK</router-link></li>
+          <li><router-link to="" class="nav-link px-2 text-white pd">History</router-link></li>
+          <li><a href="" class="nav-link px-2 text-white pd">Master Data</a></li>
+          <li><a href="" class="nav-link px-2 text-white pd">Manajemen User</a></li>
         </ul>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
+        <div class="unitk">
+          <div class="col text-white">Pengelola Kepegawaian</div>
+          <div class="col text-white">Stasiun PSDKP Cilacap</div>
+        </div>
 
         <div class="dropdown text-end">
           <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,3 +38,20 @@ export default {
     name: "Navbar"
 }
 </script>
+
+<style>
+.pd {
+  display: flex;
+  /* background-color: #f5f5f5; */
+  margin-right: 50px;
+}
+.bgheader {
+  /* background: linear-gradient(#7b7bf5, #0275d8);   */
+  background-color: #2B78E4;
+}
+.unitk {
+  display: inline;
+  margin-right: 35px;
+  /* background-color: aliceblue; */
+}
+</style>

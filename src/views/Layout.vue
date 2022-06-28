@@ -2,10 +2,8 @@
      <v-app>
       <Navbar/>
       <br>
-      <br>
-      <br>
          <main class="container">
-            <h1>Perhitungan KGB</h1>
+            <h3>Perhitungan KGB</h3>
          <div class="card">
             <div class="card-body">
               <div class="input-group">
@@ -15,12 +13,14 @@
             </div>
         </div>
         <br>
-        <br>
-        <br>
         <div class="card">
+          <div class="card-header bg-primary">
+            <h5 class="text-white">Data Pegawai yang Naik KGB</h5>
+          </div>
             <div class="card-body">
-                <h4>Data Pegawai yang Naik KGB</h4>
-                <table class="table table-bordered">
+                
+                <div class="justify-content-center responsive">
+          <table class="table table-bordered text-center">
                 
             <thead>
                 <tr>
@@ -58,7 +58,9 @@
                 <td><button class="btn btn-primary">proses</button></td>
                 </tr>
             </tbody>
-            </table>
+                </table>
+                </div>
+               
             </div>
         </div>
 </main>
