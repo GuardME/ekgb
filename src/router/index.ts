@@ -7,6 +7,7 @@ import UploadForm from "@/views/Upload_Form.vue"
 import RinciPegawai from "@/views/Rinci_Pegawai.vue"
 import InputSK from "@/views/Input_SK.vue"
 import Cetak from "@/views/Cetak.vue"
+import Dashboard from "@/views/Dashboard.vue"
 
 Vue.use(VueRouter)
 
@@ -17,7 +18,8 @@ const routes: Array<RouteConfig> = [
   {path: '/rinci', component: Rinci},
   {path: '/upload', component: Upload},
   {path: '/uploadform', component: UploadForm},
-  {path: '', component: Layout}
+  {path: '/layout', component: Layout},
+  {path: '', component: Dashboard}
 ]
 
 const router = new VueRouter({

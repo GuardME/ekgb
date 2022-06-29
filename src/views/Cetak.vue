@@ -1,6 +1,6 @@
 <template>
 
-<body style="background-color:#ccc">
+<body style="background-color: #ccc">
 	<div class="preview-a4">
         	<div class="text-center my-3">
 				<table width="100%" class="m-0">
@@ -34,16 +34,45 @@
                        <hr class="s1">
                         </td>
 					</tr>
-				
-				</table>				
-			</div>
+                    <tr>
+                        <td></td>
+                        <td style="font-size: 15px; font-weight: medium; padding-right: 120px;">Jakarta , 4 Januari 2023</td>
+                        <td></td>
+					</tr>
+				</table>
+
+
+	<div class="container">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4 text-start">Nomor : /PSDKP.0.0.2/KP/.410</div>
+    <div class="col-6 col-md-4" style="padding-right: 150px">Yth,</div>
+  </div>
+<div class="row">
+    <div class="col-6 col-md-4 text-start">Lampiran : </div>
+    <div class="col-6 col-md-4">Kepala Kantor Pelayanan</div>
+ 
+  </div>
+  <div class="row">
+    <div class="col-6 col-md-4 text-start">Perihal : Kenaikan Gaji Berkala</div>
+    <div class="col-6 col-md-4">Perbendaharaan Negara Jakarta VI</div>
+    <div class="col-6 col-md-4"></div>
+  </div>
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  
+</div>
+
+
+           </div>
 	</div>
 </body>
 </template>
 <style>
 .preview-a4 {
 	width: 750px;
-	height: 25.5cm;
+	height: 23.5cm;
 	margin: auto;
 	background-color: white;
 

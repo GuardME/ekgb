@@ -4,8 +4,7 @@
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="/" class="nav-link px-2 text-white pd bold">E - KGB</a></li>
-          <li><router-link to="upload" class="nav-link px-2 text-white pd bold">Upload KGB</router-link></li>
-                <li><router-link to="inputsk" class="nav-link px-2 text-white pd">Input SK</router-link></li>
+          <li><router-link to="upload" class="nav-link px-2 text-white pd bold">Update Data</router-link></li>
           <li><router-link to="" class="nav-link px-2 text-white pd">History</router-link></li>
           <li><a href="" class="nav-link px-2 text-white pd">Master Data</a></li>
           <li><a href="" class="nav-link px-2 text-white pd">Manajemen User</a></li>
@@ -48,6 +47,7 @@ export default {
 .bgheader {
   /* background: linear-gradient(#7b7bf5, #0275d8);   */
   background-color: #2B78E4;
+  height: 75px;
 }
 .unitk {
   display: inline;

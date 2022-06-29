@@ -1,8 +1,6 @@
 <template>
     <div>
         <Navbar/>
-           <br>
-        <br>
         <div class="container">
             <h3>Input SK KGB</h3>
             <br>
@@ -118,6 +116,8 @@
                 </div>
             </div>
         </div>
+    <br>
+    <br>
     </div>
 </template>
 

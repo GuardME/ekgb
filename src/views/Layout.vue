@@ -69,9 +69,7 @@
 </template>
 
 <script>
-
 import Navbar from "@/components/Navbar.vue"
-
 export default {
     components: {Navbar},
        data: () => ({
@@ -81,7 +79,6 @@ export default {
           printDate: function () {
             return new Date().toLocaleDateString();
           },
-
         },
         mounted: function () {
           this.date = this.printDate();
@@ -91,5 +88,4 @@ export default {
 </script>
 
 <style>
-
 </style>

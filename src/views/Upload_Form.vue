@@ -1,8 +1,6 @@
 <template>
     <div>
     <Navbar/>
-    <br>
-    <br>
         <div class="container">
             <h3>Form Upload SK KGB</h3>
             <br>
@@ -108,6 +106,7 @@
                 </div>
             </div>
         </div>
+        <br>
     </div>
 </template>
 

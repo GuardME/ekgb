@@ -1,16 +1,14 @@
 <template>
-<div>
+   <div style="background-color: #DCDCDC;; height: 100%;">
     <Navbar/>
-    <br>
     <nav aria-label="breadcrumb" class="container">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Hitung</a></li>
         <li class="breadcrumb-item active" aria-current="page">Rinci Pegawai</li>
     </ol>
     </nav>
-    <br>
     <div class="container">
-        <h3>Data Pegawai</h3>
+        <h5>Data Pegawai</h5>
         <br>
         <div class="card">
             <div class="card-body">
