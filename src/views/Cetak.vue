@@ -1,19 +1,19 @@
 <template>
 
 <body style="background-color:#ccc">
-	<div class="preview-a4 p-1 my-1">
+	<div class="preview-a4">
         	<div class="text-center my-3">
 				<table width="100%" class="m-0">
 					<tr>
-						<td width="80px">
-							<img src="@/assets/logo_psdkp_old.png" width="140" class="ml-1">
+						<td class="logo-header">
+							<img src="@/assets/logo_psdkp_old.png" width="130" class="ml-1">
 						</td>
 						<td>
-							<table class="text-center" width="100%">
+							<table class="text-center">
 								<tr>
 									<td colspan="4" height="50px">
 										<div class="bold title">
-											<h2 style="color: black; font-size: 17.3px; font-weight: bold;">KEMENTERIAN KELAUTAN DAN PERIKANAN</h2>
+											<h2 style="color: black; font-size: 22px; font-weight: bold;">KEMENTERIAN KELAUTAN DAN PERIKANAN</h2>
 											<h2 style="color: black; font-size: 19px; font-weight: bold;">DIREKTORAT JENDERAL PENGAWASAN</h2>
 											<h2 style="color: black; font-size: 19px; font-weight: bold;">SUMBER DAYA KELAUTAN DAN PERIKANAN</h2>
 										
@@ -31,9 +31,8 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-                            <hr>
-                            	<!-- <hr style="border-top: 10px double #333;border-bottom: 1px double #333;"></hr> -->
-						</td>
+                       <hr class="s1">
+                        </td>
 					</tr>
 				
 				</table>				
@@ -43,10 +42,11 @@
 </template>
 <style>
 .preview-a4 {
-	width: 700px;
-	height: 27.5cm;
+	width: 750px;
+	height: 25.5cm;
 	margin: auto;
 	background-color: white;
+
 }
 .wrapper {
 	font-family: Arial, sans-serif;
@@ -274,6 +274,25 @@ p {
 
 .bg-grey {
 	background-color: #bbb;
+}
+.logo-header{
+    width: 180px;
+
+}
+
+hr {
+  background-color:white;
+  margin:0 0 45px 0;
+  max-width:auto;
+  border-width:0;
+}
+
+hr.s1 {
+  height:5px;
+  border-top:1px solid black;
+  border-bottom:2px solid black;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
