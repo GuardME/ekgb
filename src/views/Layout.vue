@@ -63,7 +63,7 @@
                
             </div>
         </div>
-</main>
+        </main>
 
     </v-app>
 </template>
@@ -89,3 +89,7 @@ export default {
         
 }
 </script>
+
+<style>
+
+</style>

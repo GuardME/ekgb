@@ -24,9 +24,9 @@
         <br>
         <h5>Upload Dokumen</h5>
         <br>
-         <table class="table table-bordered">
-                
-            <thead>
+         <div class="justify-content-center responsive">
+            <table class="table table-bordered text-center">
+            <thead class="table-head text-white">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>
@@ -48,6 +48,7 @@
                
             </tbody>
          </table>
+         </div>
         </div>
     </div>
 </template>
@@ -59,3 +60,8 @@ export default {
     components: {Navbar}
 }
 </script>
+<style>
+.table-head {
+    background-color: #0d6efd;
+}
+</style>

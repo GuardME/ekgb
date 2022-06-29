@@ -6,11 +6,13 @@ import Upload from "@/views/Upload.vue"
 import UploadForm from "@/views/Upload_Form.vue"
 import RinciPegawai from "@/views/Rinci_Pegawai.vue"
 import InputSK from "@/views/Input_SK.vue"
+import Cetak from "@/views/Cetak.vue"
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
   {path: '/rincipegawai', component: RinciPegawai},
+  {path: '/cetak', component: Cetak},
   {path: '/inputsk', component: InputSK},
   {path: '/rinci', component: Rinci},
   {path: '/upload', component: Upload},

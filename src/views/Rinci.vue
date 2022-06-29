@@ -181,12 +181,12 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Apakah anda yakni akan memproses KGB 
+                        Apakah anda yakni akan memproses KGB
                         A.n. Verdy Azhar ?
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
-                        <button type="button" class="btn btn-primary" @click="$router.push('cetak')">Ya</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="$router.push('cetak')">Ya</button>
                     </div>
                     </div>
                 </div>
