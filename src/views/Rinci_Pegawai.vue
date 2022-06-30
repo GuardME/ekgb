@@ -1,12 +1,13 @@
 <template>
-    <div>
+    <v-app>
+        <div style="background-color: #DCDCDC; height:100%">
         <Navbar/>
-
         <div class="container">
-            <h3>Input Data Pegawai</h3>
+            <h5>Input Data Pegawai</h5>
             <br>
-            <div class="card">
-                 <div class="container">
+            <div class="card border-dark mb-3">
+                            <div class="card-body">
+                                <div class="container">
                             <div class="row">
                                 <div class="col">
                                     Nama
@@ -40,10 +41,11 @@
                                 </div>
                             </div>
                         </div>
-                        <hr>
+                            </div>
+
                         <div class="card-header"><STRONG>DASAR PENGGAJIAN SAAT INI</STRONG></div>
-                        <hr>
-                          <div class="container">
+                        <div class="card-body">
+                             <div class="container">
                             <div class="row">
                                 <div class="col">
                                     Gaji Pokok Baru
@@ -54,43 +56,54 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    Berdasarkan masa Kerja
+                                   Atas Dasar
                                 </div>
                                 <div class="col">
-                                    : 18 tahun 0 Bulan
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    Dalam golongan
-                                </div>
-                                <div class="col">
-                                    : III/b
+                                    : SK KGB
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    Mulai Tanggal
+                                    Oleh Pejabat
                                 </div>
                                 <div class="col">
-                                    : 1 Juni 2022
+                                    : Sekretariat Ditjen PSDKP
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    Kenaikan Gaji Berikutnya
+                                    Tanggal 
                                 </div>
                                 <div class="col">
-                                    : 1 Juni 2024
+                                    : 1988/PSDKP/III/2022
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Tanggal mulai Berlaku
+                                </div>
+                                <div class="col">
+                                    : 01 Juli 2022
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Masa Kerja Golongan
+                                </div>
+                                <div class="col">
+                                    : 16 Tahun 0 Bulan
                                 </div>
                             </div>
                         </div>
+                        </div>
             </div>
             <br>
-            <button class="btn btn-outline-secondary" @click="$router.push('inputsk')">Tambah</button>
+            <button class="btn btn-primary" @click="$router.push('inputsk')">Tambah</button>
             <br>
             <br>
-             <table class="table table-bordered">
+          <div class="card border-dark">
+            <div class="card-body">
+                   <table class="table table-bordered">
                 
             <thead>
                 <tr>
@@ -137,8 +150,11 @@
                 </tr>
             </tbody>
             </table>
+            </div>
+          </div>
         </div>
     </div>
+    </v-app>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-   <div style="background-color: #DCDCDC;; height: 100%;">
+   <div style="background-color: #DCDCDC; height: 100%;">
     <Navbar/>
     <nav aria-label="breadcrumb" class="container">
     <ol class="breadcrumb">

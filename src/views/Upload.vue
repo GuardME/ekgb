@@ -1,19 +1,14 @@
 <template>
-    <div>
+        <v-app>
+        <div style="background-color: #DCDCDC; height: 100%;">
         <Navbar/>
-         <br>
-        <nav aria-label="breadcrumb" class="container">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Input</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Upload SK</li>
-        </ol>
-        </nav>
-        <br>
+      
         <div class="container">
+            <br>
+            <h6>Cari Pegawai</h6>
+            <br>
              <div class="card">
             <div class="card-body">
-                <h5>Cari Pegawai yang akan di input SK</h5>
-                
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Nip / Nama" aria-label="Recipient's username" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Cari</button>
@@ -22,9 +17,11 @@
             </div>
         </div>
         <br>
-        <h5>Upload Dokumen</h5>
+        <h6>Upload SK KGB</h6>
         <br>
-         <div class="justify-content-center responsive">
+        <div class="card">
+            <div class="card-body">
+                 <div class="justify-content-center responsive">
             <table class="table table-bordered text-center">
             <thead class="table-head text-white">
                 <tr>
@@ -43,14 +40,18 @@
                 <td>III/b</td>
                 <td>01-06-2022</td>
                 <td>17 th 2 bln</td>
-                <td><button class="btn btn-primary" @click="$router.push('uploadform')">Upload</button></td>
+                <td><button class="btn btn-primary" @click="$router.push('rincipegawai')">Upload</button> &nbsp;<button href="" class="btn btn-primary">Edit</button></td>
                 </tr>
                
             </tbody>
          </table>
          </div>
+            </div>
+        </div>
         </div>
     </div>
+        </v-app>
+    
 </template>
 
 <script>

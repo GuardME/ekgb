@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div style="background-color: #DCDCDC; height: 100%;">
         <Navbar/>
         <div class="container">
-            <h3>Input SK KGB</h3>
+            <h3>Form Tambah SK</h3>
             <br>
-            <div class="card">
+            <div class="card border-dark">
                 <div class="card">
                     <div class="container">
                         <div class="row">
@@ -42,7 +42,7 @@
                     </div>
                     <br>
                 </div>
-                <div class="card-header"><strong>Input SK</strong></div>
+                <div class="card-header border-dark"><strong>Input SK</strong></div>
                 <div class="custom-container">
                     <br>
                   <div class="mb-3 row">
@@ -106,8 +106,9 @@
                   <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Upload Dokumen
 	                (type file pdf max.2 MB)</label>
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                     <input type="file" class="form-control" id="inputPassword">
+                    <input type="radio-button">
                     </div>
                   </div>
                   <br>
