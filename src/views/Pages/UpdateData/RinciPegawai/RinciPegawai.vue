@@ -157,6 +157,7 @@
 
 <script>
 export default {
+    name: "RinciPegawai",
     setup() {
         
     },

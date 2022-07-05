@@ -148,7 +148,9 @@
 </template>
 
 <script>
-
+export default {
+    name: "InputSK"
+}
 </script>
 
 <style>

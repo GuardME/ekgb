@@ -1,4 +1,3 @@
-
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Layout from "@/views/Pages/Layout.vue"
@@ -6,7 +5,7 @@ import Rinci from "@/views/Pages/Rinci/Rinci.vue"
 import Dashboard from "@/views/Pages/Dashboard/Dashboard.vue"
 import DashboardSK from "@/views/Pages/UpdateData/Dashboard/DashboardSK.vue"
 import RinciPegawai from "@/views/Pages/UpdateData/RinciPegawai/RinciPegawai.vue"
-import InputSK from "@/views/Pages/UpdateData/RinciPegawai/InputSK/InputSK.vue"
+import InputSK from "@/views/Pages/UpdateData/InputSK/InputSK.vue"
 import SuccessAlert from "@/views/Pages/Alert/AlertSuccess.vue"
 
 Vue.use(VueRouter)
