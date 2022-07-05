@@ -1,5 +1,4 @@
 <template>
-
 <body style="background-color: #ccc">
 	<div class="preview-a4">
         	<div class="text-center my-3">

@@ -2,8 +2,16 @@
      <v-app>
       <Navbar/>
       <br>
+       <v-card
+    :loading="loading"
+    class="mx-auto my-12"
+    max-width="374"
+  ></v-card>
          <main class="container">
             <h3>Perhitungan KGB</h3>
+            <v-card
+  elevation="2"
+></v-card>
          <div class="card">
             <div class="card-body">
               <div class="input-group">

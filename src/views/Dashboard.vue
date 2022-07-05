@@ -1,10 +1,13 @@
 <template>
    <v-app>
-    <div style="background-color: #DCDCDC;; height: 100%;">
+    <div style="background-color: #DCDCDC; height: 100%;">
         <Navbar/>
         <br>
+      
         <div class="container">
-            <h6>Cari Pegawai</h6>
+      
+      
+        <h6>Cari Pegawai</h6>
             <br>
 
              <div class="card">
