@@ -9,7 +9,7 @@
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 bgheader">
           <li><a href="/" class="nav-link px-2 text-white bold pd">E - KGB</a></li>
           <li class="nav-item"><router-link to="/dashboardSK" class="nav-link px-2 text-white bold pd">Update Data</router-link></li>
-          <li><router-link to="" class="nav-link px-2 text-white bold pd">History</router-link></li>
+          <li><router-link to="/History" class="nav-link px-2 text-white bold pd">History</router-link></li>
           <li><a href="" class="nav-link px-2 text-white bold pd">Master Data</a></li>
           <li><a href="" class="nav-link px-2 text-white bold pd">Manajemen User</a></li>
         </ul>

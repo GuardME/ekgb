@@ -181,7 +181,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="$router.push('cetak')">Ya</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="$router.push('Cetak')">Ya</button>
                     </div>
                     </div>
                 </div>

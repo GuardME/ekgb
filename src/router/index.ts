@@ -7,6 +7,10 @@ import DashboardSK from "@/views/Pages/UpdateData/Dashboard/DashboardSK.vue"
 import RinciPegawai from "@/views/Pages/UpdateData/RinciPegawai/RinciPegawai.vue"
 import InputSK from "@/views/Pages/UpdateData/InputSK/InputSK.vue"
 import SuccessAlert from "@/views/Pages/Alert/AlertSuccess.vue"
+import Cetak from "@/views/Pages/Laporan/Cetak.vue"
+import Search from "@/views/Pages/Rinci/Search/Search.vue"
+import UploadKGB from "@/views/Pages/UpdateData/UploadKGB/UploadKGB.vue"
+import History from "@/views/Pages/History/History.vue"
 
 Vue.use(VueRouter)
 
@@ -15,12 +19,16 @@ const routes: Array<RouteConfig> = [
     children: [
       {path: '', component: Dashboard},
       {path: '/rinci', component: Rinci},
-      {path: 'dashboardSK', component: DashboardSK},
-      {path: 'RinciPegawai', component: RinciPegawai},
-      {path: 'InputSK', component: InputSK},
-      {path: 'AlertSuccess', component: SuccessAlert}
+      {path: '/dashboardSK', component: DashboardSK},
+      {path: '/RinciPegawai', component: RinciPegawai},
+      {path: '/Search', component: Search},
+      {path: '/InputSK', component: InputSK},
+      {path: '/AlertSuccess', component: SuccessAlert},
+      {path: '/UploadKGB', component: UploadKGB},
+      {path: '/History', component: History}
     ]
-  }
+  },
+  {path: '/Cetak', component: Cetak}
 ]
 
 const router = new VueRouter({

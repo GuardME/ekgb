@@ -1,10 +1,8 @@
 <template>
-    <div>
-        <Navbar/>
-        <div class="container">
-            <h3>Form Tambah SK</h3>
+    <div class="container">
+            <h3>Form Upload SK KGB</h3>
             <br>
-            <div class="card border-dark">
+            <div class="card">
                 <div class="card">
                     <div class="container">
                         <div class="row">
@@ -42,23 +40,12 @@
                     </div>
                     <br>
                 </div>
-                <div class="card-header border-dark"><strong>Input SK</strong></div>
+                <div class="card-header"><strong>Upload</strong></div>
                 <div class="custom-container">
                     <br>
+                    
                   <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Jenis SK</label>
-                    <div class="col-sm-6">
-                    <select class="form-select" aria-label="Default select example">
-                    <option selected>Pilih</option>
-                    <option value="1">KGB</option>
-                    <option value="2">...</option>
-                    <option value="3">...</option>
-                    </select>
-                    </div>
-                  </div>
-
-                  <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Nomor SK</label>
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Nomor</label>
                     <div class="col-sm-6">
                     <input type="text" class="form-control" id="inputPassword">
                     </div>
@@ -83,11 +70,8 @@
                   </div>
                    <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Masa Kerja Golongan</label>
-                    <div class="col-sm-3">
-                    <input type="date" class="form-control" id="inputPassword">
-                    </div>
-                      <div class="col-sm-3">
-                    <input type="date" class="form-control" id="inputPassword">
+                    <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputPassword">
                     </div>
                   </div>
                    <div class="mb-3 row">
@@ -102,19 +86,34 @@
                     <input type="text" class="form-control" id="inputPassword">
                     </div>
                   </div>
-                
+                   <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Kenaikan Gaji berkala 
+	                Berikutnya</label>
+                    <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+
                   <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Upload Dokumen
 	                (type file pdf max.2 MB)</label>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                     <input type="file" class="form-control" id="inputPassword">
-                    <input type="radio-button">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Set Default
+                        </label>
+                        </div>
                     </div>
                   </div>
-                  <br>
-                  <br>
-                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div  style="margin-left: 60%;">
+                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+                  </div>
+
+                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
@@ -132,24 +131,18 @@
                     </div>
                 </div>
                 </div>
+
+                  <br>
+                  <br>
                 </div>
-                <br>
             </div>
+            <br>
         </div>
-    <br>
-    <br>
- 
- 
- </div>
-
-
-
-
 </template>
 
 <script>
 export default {
-    name: "InputSK"
+    name: "UploadKGB"
 }
 </script>
 
