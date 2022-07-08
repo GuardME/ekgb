@@ -25,7 +25,7 @@
             <div class="card-body">
                 <div class="justify-content-center responsive" style="background-color: white">
             <table class="table table-bordered text-center">
-            <thead class="table-head text-white">
+            <thead class="table-head text-white" style="font-size: medium;">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>

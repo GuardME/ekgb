@@ -4,7 +4,7 @@
 				<table width="100%" class="m-0">
 					<tr>
 						<td class="logo-header">
-							<img src="@/assets/logo_psdkp_old.png" width="130" class="ml-1">
+							<img src="@/assets/logo_psdkp.png" width="130" class="ml-1">
 						</td>
 						<td>
 							<table class="text-center">

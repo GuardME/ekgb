@@ -4,9 +4,9 @@
         <br>
         <div class="card">
             <div class="card-body">
-                   <div class="justify-content-center responsive" style="background-color: white">
+                   <div class="justify-content-center table-responsive" style="background-color: white">
             <table class="table table-bordered text-center">
-            <thead class="table-head text-primary table-light">
+            <thead class="table-head text-dark" style="background: linear-gradient(#7b7bf5, #0275d8); font-size: medium;">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>
@@ -18,15 +18,15 @@
                 <th scope="col">Aksi</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                <td>Verdy Azhar</td>
-                <td>Sekretariat Ditjen PSDKP</td>
-                <td>III/b</td>
-                <td>KGB</td>
-                <td>22131/PSDKP</td>
-                <td>01-06-2022</td>
-                <td>17 th 2 bln</td>
+            <tbody style="font-size: medium; ">
+                <tr scope="row" >
+                <td style="padding: 10px;">Verdy Azhar</td>
+                <td style="padding: 10px;">Sekretariat Ditjen PSDKP</td>
+                <td style="padding: 10px;">III/b</td>
+                <td style="padding: 10px;">KGB</td>
+                <td style="padding: 10px;">22131/PSDKP</td>
+                <td style="padding: 10px;">01-06-2022</td>
+                <td style="padding: 10px;">17 th 2 bln</td>
                 <td>
                     <button class="btn btn-primary" @click="$router.push('tambah')" style="margin-right: 7%">Tambah</button>
                     <button class="btn btn-primary" @click="$router.push('tambah')">Set Default</button>
@@ -47,3 +47,9 @@ export default {
     name: "Search"
 }
 </script>
+
+<style>
+td {
+    padding: 10px;
+}
+</style>

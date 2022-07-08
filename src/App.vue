@@ -16,4 +16,7 @@ export default Vue.extend({
 </script>
 
 <style>
+.header-table {
+     background: linear-gradient(#7b7bf5, #0275d8);
+}
 </style>

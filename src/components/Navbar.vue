@@ -10,9 +10,17 @@
           <li><a href="/" class="nav-link px-2 text-white bold pd">E - KGB</a></li>
           <li class="nav-item"><router-link to="/dashboardSK" class="nav-link px-2 text-white bold pd">Update Data</router-link></li>
           <li><router-link to="/History" class="nav-link px-2 text-white bold pd">History</router-link></li>
-          <li><a href="" class="nav-link px-2 text-white bold pd">Master Data</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link px-2 text-white bold pd" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Master Data</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><router-link class="dropdown-item" to="/UnitKerja">Unit Kerja</router-link></li>
+              <li><router-link class="dropdown-item" to="/Pegawai">Pegawai</router-link></li>
+            </ul>
+          </li>
           <li><a href="" class="nav-link px-2 text-white bold pd">Manajemen User</a></li>
-        </ul>
+
+          </ul>
 
           <div class="unitk pd">
           <div class="col text-white">Pengelola Kepegawaian</div>
@@ -43,9 +51,8 @@ export default {
   margin-right: 50px;
 }
 .bgheader {
-  /* background: linear-gradient(#7b7bf5, #0275d8);   */
-  background-color: #2B78E4;
-  height: auto;
+  background: linear-gradient(#7b7bf5, #0275d8);  
+  /* background-color: #2B78E4; */
 }
 .unitk {
   display: inline;

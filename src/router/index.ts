@@ -11,10 +11,14 @@ import Cetak from "@/views/Pages/Laporan/Cetak.vue"
 import Search from "@/views/Pages/Rinci/Search/Search.vue"
 import UploadKGB from "@/views/Pages/UpdateData/UploadKGB/UploadKGB.vue"
 import History from "@/views/Pages/History/History.vue"
+import Login from "@/views/Pages/Auth/Login/Login.vue"
+import UnitKerja from "@/views/Pages/MasterData/UnitKerja/UnitKerja.vue"
+import Pegawai from "@/views/Pages/MasterData/Pegawai/Pegawai.vue"
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
+  {path: '/Login', component: Login},
   {path: '', component: Layout,
     children: [
       {path: '', component: Dashboard},
@@ -25,10 +29,13 @@ const routes: Array<RouteConfig> = [
       {path: '/InputSK', component: InputSK},
       {path: '/AlertSuccess', component: SuccessAlert},
       {path: '/UploadKGB', component: UploadKGB},
-      {path: '/History', component: History}
+      {path: '/History', component: History},
+      {path: '/UnitKerja', component: UnitKerja},
+      {path: '/Pegawai', component: Pegawai}
     ]
   },
-  {path: '/Cetak', component: Cetak}
+  {path: '/Cetak', component: Cetak},
+ 
 ]
 
 const router = new VueRouter({

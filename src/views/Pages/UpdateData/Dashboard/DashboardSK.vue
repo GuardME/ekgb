@@ -1,8 +1,8 @@
 <template>
-    <div>
-    <br>
+    <div class="container">
     <br>
     <h5 style="margin-left: 1%">Tambah SK</h5>
+    <br>
     <form>
     <div class="card">
         <div class="card-body">
@@ -11,7 +11,7 @@
          v-model="name"
         :error-messages="nameErrors"
         :counter="10"
-        label="Nip / Nama"
+        label="NIP / Nama"
         required
         @input="$v.name.$touch()"
         @blur="$v.name.$touch()"
@@ -24,9 +24,12 @@
     </form>
     <br>
     <h5 style="margin-left: 1%">Upload SK KGB</h5>
-        <v-simple-table>
+    <br>
+        <v-simple-table
+        padding="100"
+        >
             <template v-slot:default>
-            <thead>
+            <thead class="header-table">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>

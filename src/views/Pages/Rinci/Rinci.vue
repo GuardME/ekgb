@@ -1,103 +1,94 @@
 <template>
-<div>
-    <nav aria-label="breadcrumb" class="container">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item bold"><a href="#">Hitung</a></li>
-        <li class="breadcrumb-item active bold" aria-current="page">Rinci Pegawai</li>
-    </ol>
-    </nav>
-    <h5 style="margin-left: 1%">Cari Pegawai</h5>
-        <div class="card">
-            <div class="card-body">
-                <div class="card">
+<div class="container">
+        <div class="card" style="margin-top: -15px; height: 810px;">
+            <div class="card-body" style="margin-bottom: 55px">
+                <div class="card" style="margin-bottom:5px;">
                     <div class="card-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
+                        <div class="container-fluid">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Nama
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : Verdy Azhar
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Nip
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : 198512272005021001
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Pangkat / Golongan Ruang
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : Penata Muda Tingkat I, III/b
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Unit Kerja 
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : Sekretariat Direktorat Jenderal PSDKP
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
                 </div>
-                 <br>
                     <div class="card">
                         <div class="card-header">Dasar Penggajian Saat Ini</div>
                         <div class="card-body">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row justify-content-start">
+                                    <div class="col-4">
                                         Gaji Pokok Lama
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                         :  Rp. 3.200.000,-
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row justify-content-start">
+                                    <div class="col-4">
                                         Atas Dasar
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                         : SK KGB
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row justify-content-start">
+                                    <div class="col-4">
                                         Oleh Pejabat
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                         : Sekretariat Direktorat Jendral PSDKP
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row justify-content-start">
+                                    <div class="col-4">
                                         Tanggal
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                         : 821/KPTS/BKPP/2021
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row justify-content-start">
+                                    <div class="col-4">
                                         Tanggal Mulai Berlaku
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                         : 01 Juni 2022
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row justify-content-start">
+                                    <div class="col-4">
                                         Masa Kerja golongan
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                         16 Tahun 0 Bulan
                                     </div>
                                 </div>
@@ -105,66 +96,61 @@
                         </div>
                     </div>
                  <br>
-                 <div class="card">
+                 <div class="card" style="margin-top:-20px;">
                     <div class="card-header">USULAN KENAIKAN GAJI BERKALA PADA 1 JUNI 2022</div>
                     <div class="card-body">
                         <div class="container">
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Gaji Pokok Baru
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : Rp. 3.400.000,-
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Berdasarkan masa Kerja
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : 18 tahun 0 Bulan
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Dalam golongan
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : III/b
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Mulai Tanggal
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : 1 Juni 2022
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col">
+                            <div class="row justify-content-start">
+                                <div class="col-4">
                                     Kenaikan Gaji Berikutnya
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     : 1 Juni 2024
                                 </div>
                             </div>
                            <br>
-                           <br>
-                            
                             <div class="d-flex justify-content-center">
                                 <h3><strong class="text-success">KGB Dapat Diproses</strong></h3>
                             </div>
-                            <br>
-                            <br>
                         </div>
                     </div>
                  </div>
                    <br>
                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-outline-secondary">Kembali</button>
-                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Proses</button>
-                    
+                    <button class="btn btn-primary">Kembali</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Proses</button>      
                     </div>
                  <!-- Modal -->
              <!-- Modal -->
@@ -180,7 +166,7 @@
                         A.n. Verdy Azhar ?
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tidak</button>
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="$router.push('Cetak')">Ya</button>
                     </div>
                     </div>
@@ -189,7 +175,6 @@
                  <!-- End Modal -->
             </div>
         </div>
-<br>
 </div>
    
 

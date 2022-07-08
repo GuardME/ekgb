@@ -1,12 +1,6 @@
 <template>
    <div style="background-color: #DCDCDC; height: 100%;">
     <Navbar/>
-    <nav aria-label="breadcrumb" class="container">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Hitung</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Rinci Pegawai</li>
-    </ol>
-    </nav>
     <div class="container">
         <h5>Data Pegawai</h5>
         <br>
@@ -165,7 +159,7 @@
                  </div>
                    <br>
                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-outline-secondary">Kembali</button>
+                    <button class="btn btn-outline-primary">Kembali</button>
                     <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Proses</button>
                     
                     </div>
@@ -183,7 +177,7 @@
                         A.n. Verdy Azhar ?
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tidak</button>
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="$router.push('cetak')">Ya</button>
                     </div>
                     </div>
