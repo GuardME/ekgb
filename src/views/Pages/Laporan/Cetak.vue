@@ -247,5 +247,6 @@ hr.s1 {
   border-bottom:2px solid black;
   margin-left: 2%;
   margin-right: 2%;
+  margin-top: -15px;
 }
 </style>

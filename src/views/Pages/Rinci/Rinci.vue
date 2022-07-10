@@ -89,7 +89,7 @@
                                         Masa Kerja golongan
                                     </div>
                                     <div class="col-4">
-                                        16 Tahun 0 Bulan
+                                        : 16 Tahun 0 Bulan
                                     </div>
                                 </div>
                             </div>

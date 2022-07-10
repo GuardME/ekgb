@@ -24,8 +24,9 @@
     <br>
         <div class="card">
             <div class="card-body">
-                <table class="table table-bordered">
-            <thead class="header-table">
+                <div class="table-responsive">
+            <table class="table table-bordered align-middle">
+            <thead class="header-table text-white">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>
@@ -38,31 +39,23 @@
                 <th scope="col">Aksi</th>
                 </tr>
             </thead>
-            <tbody class="text-center justify-content auto-fil" height="125">
-                 <tr>
-                <td>Verdy Azhar</td>
-                <td>Sekretariat Ditjen PSDKP</td>
-                <td>III/b</td>
-                <td>KGB</td>
-                <td>12/PSDKP.01/2022</td>
-                <td>01-06-2022</td>
-                <td>17 th 2 bln</td>
-                <td>01-06-2022</td>
-                <td><button class="btn btn-primary" @click="$router.push('rinci')">Proses</button></td>
-                </tr>
+            <tbody class="text-center justify-content">
                 <tr>
                 <td>Verdy Azhar</td>
                 <td>Sekretariat Ditjen PSDKP</td>
                 <td>III/b</td>
-                <td>KGB</td>
-                <td>12/PSDKP.01/2022</td>
-                <td>01-06-2022</td>
+                <td >KGB</td>
+                <td >12/PSDKP.01/2022</td>
+                <td >01-06-2022</td>
                 <td>17 th 2 bln</td>
-                <td>01-06-2022</td>
-                <td><button class="btn btn-primary" @click="$router.push('rinci')">Proses</button></td>
+                <td  >01-06-2022</td>
+                <td  ><button class="btn btn-primary" @click="$router.push('rinci')">Proses</button></td>
                 </tr>
             </tbody>
         </table>
+
+                </div>
+           
             </div>
         </div>
 
@@ -80,4 +73,9 @@ export default {
     components: {Navbar}
 }
 </script>
+
+<style lang="css"scoped>
+/* ::v-deep/ .table > tbody > tr > td { */
+
+</style>
 

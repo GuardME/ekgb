@@ -44,4 +44,11 @@ body {
 body {
   background-color: #f5f5f5f5;
 }
+
+.table > tbody > tr > td {
+padding: 10px;
+height: 10px;
+text-align: center;
+}
+
 </style>

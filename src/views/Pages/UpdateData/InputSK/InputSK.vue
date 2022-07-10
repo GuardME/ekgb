@@ -1,10 +1,10 @@
 <template>
-    <div style="margin-top: -15px; height: 810px;">
+    <div style="margin-top: -15px; height: 800px;">
         <div class="container">
             <h5 style="margin-left:1%; margin-bottom:0.4em;">Form Tambah SK</h5>
-            <div class="card border-dark">
+            <div class="card border-dark" style="height: 800px;">
                 <div class="card">
-                    <div class="container">
+                    <div class="container" style="margin-top: 12px;">
                         <div class="row justify-content-start">
                             <div class="col-4">
                                 Nama
@@ -79,23 +79,29 @@
                   </div>
                   <div class="mb-2 row" style="padding-right: 45%;">
                     <label for="inputPassword" class="col-sm-4 col-form-label">Masa Kerja Golongan</label>
-                    <div class="col-sm-3">
-                    <input type="date" class="form-control" id="inputPassword">
+                    <div class="col-sm-2">
+                    <input type="text" class="form-control" id="inputPassword">
                     </div>
-                      <div class="col-sm-3">
-                    <input type="date" class="form-control" id="inputPassword">
+                    <div class="col-sm-2">
+                    <label for="">Tahun</label>
+                    </div>
+                    <div class="col-sm-2">
+                    <input type="text" class="form-control" id="inputPassword">
+                    </div>
+                      <div class="col-sm-2">
+                    <label for="">Bulan</label>
                     </div>
                   </div>
                   <div class="mb-3 row" style="padding-right: 45%;">
                     <label for="inputPassword" class="col-sm-4 col-form-label">Gaji Pokok</label>
                     <div class="col-sm-8">
-                    <input type="text" class="form-control" id="inputPassword">
+                    <input type="text" class="form-control" v-model="currentValue" id="inputPassword" @input="handleInput"/>
                     </div>
                   </div>
                   <div class="mb-3 row" style="margin-top:-2%; padding-right: 45%;">
                     <label for="inputPassword" class="col-sm-4 col-form-label">tanggal mulai berlaku </label>
-                    <div class="col-sm-8">
-                    <input type="text" class="form-control" id="inputPassword">
+                    <div class="col-sm-3">
+                    <input type="date" class="form-control" id="inputPassword">
                     </div>
                   </div>
                   <div class="mb-3 row" style="margin-top:-2%; padding-right: 45%;">
@@ -147,7 +153,32 @@
 
 <script>
 export default {
-    name: "InputSK"
+    name: "InputSK",
+    props: {
+      value: {
+        type: [String, Number],
+        default: ""
+      },
+    },
+    data: () => ({
+      currentValue: ''
+    }),
+    watch: {
+      value: {
+        handler(after) {
+          this.currentValue = this.format(after)
+        },
+        immediate: true
+      }
+    },
+    methods: {
+      format: value => (value + '').replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, "."),
+      
+      handleInput() {
+        this.currentValue = this.format(this.currentValue)
+        this.$emit('input', (this.currentValue + '').replace(/[^0-9]/g, ""))
+      }
+    }
 }
 </script>
 

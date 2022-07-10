@@ -100,7 +100,7 @@
           <div class="card border-dark">
             <div class="card-body">
                    <table class="table table-bordered">
-            <thead class="header-table">
+            <thead class="header-table text-white">
                 <tr>
                 <th scope="col">Nomor SK</th>
                 <th scope="col">Nomor</th>

@@ -1,10 +1,13 @@
 <template>
     <div>
-         <h5 style="margin-left: 1%">History</h5>
+
     <br>
-        <v-simple-table>
-            <template v-slot:default>
-            <thead>
+    <div class="container">
+                 <h5 style="margin-left: 1%; padding-bottom: 1%">History</h5>
+    <div class="card">
+            <div class="card-body">
+                <table class="table table-bordered text-center" height="200">
+            <thead class="header-table">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>
@@ -38,8 +41,11 @@
                 <td><button class="btn btn-primary" @click="$router.push('rinci')">View</button></td>
                 </tr>
             </tbody>
-            </template>
-        </v-simple-table>
+        </table>
+            </div>
+        </div>
+    </div>
+    
     </div>
 </template>
 

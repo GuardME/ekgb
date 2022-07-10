@@ -25,17 +25,19 @@
     <br>
     <h5 style="margin-left: 1%">Upload SK KGB</h5>
     <br>
-        <v-simple-table
-        padding="100"
-        >
-            <template v-slot:default>
-            <thead class="header-table">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+            <thead class="header-table text-white">
                 <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Unit Kerja</th>
                 <th scope="col">Gol</th>
-                <th scope="col">TMT KGB Berkala</th>
+                <th scope="col">Dasar SK</th>
+                <th scope="col">TMT</th>
                 <th scope="col">Masa Kerja</th>
+                <th scope="col">KGB Akan Datang</th>
                 <th scope="col">Aksi</th>
                 </tr>
             </thead>
@@ -44,8 +46,10 @@
                 <td>Verdy Azhar</td>
                 <td>Sekretariat Ditjen PSDKP</td>
                 <td>III/b</td>
+                <td>KGB</td>
                 <td>01-06-2022</td>
                 <td>17 th 2 bln</td>
+                <td>01-06-2022</td>
                 <td>
                     <button class="btn btn-primary" @click="$router.push('RinciPegawai')" style="margin-right: 2%">Upload</button>
                     <a href="" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
@@ -55,16 +59,22 @@
                 <td>Verdy Azhar</td>
                 <td>Sekretariat Ditjen PSDKP</td>
                 <td>III/b</td>
+                <td>KGB</td>
                 <td>01-06-2022</td>
                 <td>17 th 2 bln</td>
+                <td>01-06-2022</td>
                 <td>
                     <button class="btn btn-primary" @click="$router.push('RinciPegawai')" style="margin-right: 2%">Upload</button>
                     <a href="" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
                 </td>
                 </tr>
-            </tbody>
-            </template>
-        </v-simple-table>
+            </tbody>    
+        </table>
+            </div>
+        
+        </div>
+    </div>
+       
     </div>
 </template>
 
